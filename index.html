@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Nauczator</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="tomorrow.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="questions.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron py-4">
+                <h3 class="display-4" style="font-size: 30px" id="question">Produkty oprogramowania w inżynierii oprogramowania można podzielić na:</h3>
+                <hr class="my-4">
+                <div class="alert alert-primary answer" id="a0">A simple primary alert—check it out!</div>
+                <div class="alert alert-primary answer" id="a1">A simple primary alert—check it out!</div>
+                <div class="alert alert-primary answer" id="a2">A simple primary alert—check it out!</div>
+                <div class="alert alert-primary answer" id="a3">A simple primary alert—check it out!</div>
+                <a class="btn btn-primary" id="nextBtn" style="color:white">Next</a>
+                <a class="btn btn-success" id="deleteBtn" style="color:white">Usuń z listy pytań</a>
+                <span id="questionSuccessRate"></span>
+                <br>
+                <div id="stats">
+                    <label class="my-1">Questions progress:</label>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" id="progressQuestions" role="progressbar" style="width: 0%">0%</div>
+                    </div>
+                    <label class="my-2">Success rate (last 20): </label>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-success" id="progressLast20" role="progressbar" style="width: 0%">0%</div>
+                    </div>
+                    <label class="my-2">Success rate (all):</label>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-success" id="progressAll" role="progressbar" style="width: 0%">0%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span id="info">Nauczator 1.7 | Pytań w bazie: <span id="questionNum"></span> | Made by Karph aka. Karolak</span>
+    </body>
+</html>

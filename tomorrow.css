@@ -1,0 +1,22 @@
+body {
+	background: #1d1f21;
+}
+
+.jumbotron {
+	background: #2d2d33;
+	color: #fff;
+}
+
+.answer {
+	background: #334a66;
+	color: #fff;
+	border: none;
+}
+
+.alert-success {
+	background: #363;
+}
+
+.alert-danger {
+	background: #633;
+}

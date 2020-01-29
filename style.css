@@ -1,0 +1,42 @@
+.answer
+{
+    cursor: pointer;
+}
+
+#stats
+{
+    text-align: center;
+}
+
+label
+{
+    font-size: 14px;
+    margin: auto;
+}
+
+#info
+{
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
+
+#questionSuccessRate
+{
+    float: right;
+}
+
+.badge
+{
+    font-size: 18px;
+}
+
+.progress
+{
+    background: rgba(255,255,255,0.3);
+}
+
+#info
+{
+    color: white;
+}
