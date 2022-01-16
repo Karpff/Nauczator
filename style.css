@@ -3,6 +3,11 @@
     cursor: pointer;
 }
 
+.container-lg
+{
+    padding-top: 50px;
+}
+
 #stats
 {
     text-align: center;
