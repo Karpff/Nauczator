@@ -1,179 +1,295 @@
-//rynek pracy
-var questions = [
+//egzamin z PAdW
+questions = [
     {
-        q: "Cechy temperamentu ujawniają się w reakcjach emocjonalnych, motoryce i działaniach człowieka.",
-        a: [
-            "Prawda",
-            "Fałsz"
-        ]
-    },{
-        q: "Jeśli podaż pracy jest wyższa od popytu na pracę, to mamy",
-        a: [
-            "nadmiar pracowników",
-            "niedobór pracowników",            
-            "nadmiar wolnych miejsc pracy"
-        ]
-    },{
-        q: "Na pasywną politykę rynku pracy składają się",
-        a: [
-            "zasiłki dla bezrobotnych",
-            "szkolenia bezrobotnych",
-            "pożyczki dla osób zakładających firmy"
-        ]
-    },{
-        q: "Portfolio kariery to metoda zbierania, kompletowania i prezentacji informacji o swoim potencjale edukacyjnym i zawodowym, o sukcesach i mocnych stronach",
-        a: [
-            "Prawda",
-            "Fałsz"
-        ]
-    },{
-        q: "Kompetencje społeczne nazywane są również kompetencjami",
-        a: [
-	    "interpersonalnymi",
-            "intropersonalnymi",            
-            "organizacyjnymi"
-        ]
-    },{
-        q: "Status osoby bezrobotnej może mieć osoba",
-        a: [
-            "osoba, która nie złożyła wniosku o wpis do ewidencji działalności gospodarczej",
-            "osoba w wieku poprodukcyjnym",
-            "osoba ucząca się w szkole w systemie dziennym"
-        ]
-    },{
-        q: "Do subiektywnych cech za pomoca, których można opisać karierę zawodową pracownika można między innymi zaliczyć: liczbę i rodzaje zajmowanych stanowisk, pełnione funkcje, dyplomy, certyfikaty, rekomendacje potwierdzające wiedzę i doświadczenie pracownika.",
-        a: [
-            "Fałsz",
-            "Prawda"
-        ]
-    },{
-        q: "Inteligencja to swoisty zespół zdolności umysłowych umożliwiających jednostce sprawne korzystanie z nabytej wiedzy oraz skuteczne zachowanie się w nowych warunkach i wobec nowych zadań",
-        a: [
-            "Prawda",
-            "Fałsz"
-        ]
-    },{
-        q: "Podaż na rynku pracy reprezentowana jest przez pracodawców oferujących miejsca pracy",
-        a: [
-            "Fałsz",
-            "Prawda"
-        ]
-    },{
-        q: "Bezrobocie to sytuacja, w której istnieje grupa osób zdolna do pracy i gotowa ją podjąć, lecz nie znajdująca możliwości zatrudnienia",
-        a: [
-            "Prawda",
-            "Fałsz"
-        ]
-    },{
-        q: "Do procedury selekcji kandydatów należy",
-        a: [
-            "analiza kandydatów (np. wywiady, testy)",
-            "prowadzenie kampani rekrutacyjnej w szkołach",
-            "zebranie informacji o lokalnym rynku pracy"
-        ]
-    },{
-        q: "Cele działania instytucji rynku pracy to",
-        a: [
-            "zwiększanie mobilności na rynku pracy",
-            "edukacja osób w wieku przedprodukcyjnym",
-            "promocja zdrowego stylu życia wśród osób w wieku produkcyjnym"
-        ]
-    },{
-        q: "Rynek pracy obejmuje całokształt zagadnień związanych z kształtwaniem podaży pracy i popytu na pracę.",
-        a: [
-            "Prawda",
-            "Fałsz"
-        ]
-    },{
-        q: "Do zalet rekrutacji wewnętrznej należy zaliczać",
-        a: [
-            "niskie ryzyko błędnej selekcji kandydatów",
-            "wysokie koszty rekrutacji",                        
-            "pozyskanie dodatkowych kontaktów dla organizacji od, w ten sposób rekrutowanych pracowników"
-        ]
-    },{
-        q: "W skład kompetencji społenczych NIE zalicza się",
-        a: [
-            "deprecjonowania sukcesów innych osób",
-            "empatii",
-            "umiejętności wpływania na innych"
-        ]
-    },{
-        q: "Metody prowadzenia rozmowy kwalifikacyjnej mozna podzielić ze wzgledu na",
-        a: [
-            "zakres zbieranych informacji",
-            "dociekliwośc zbierania informacji przez rekrutera",
-            "jezyk w jakim rozmowa jest prowadzona"
-        ]
-    },{
-        q: "Inteligencja emocjonalna to zbiór zdolności warunkujących wykorzystanie emocji przy rozwiązywaniu problemów zwłaszcza w sytuacjach społecznych, w tym także zawodowych",
-        a: [
-            "Prawda",
-            "Fałsz"
-        ]
-    },{
-        q: "Rekrutacja wewnętrzna polega na pozyskiwaniu nowych pracowników dzięki polecaniu kandydatów przez osoby zatrudnione w organizacji",
-        a: [
-            "Fałsz",   
-            "Prawda"
-        ]
-    },{
-        q: "Prawidłowo przeprowadzona rekrutacja spełnia funkcję",
-        a: [
-            "marketingową(budując wizerunek firmy na rynku)",
-            "stabilizującą(stabilizuje zatrudnienie w firmie)",
-            "prewencyjna (poprzez wyszukiwanie kandydatów na ewentualnie  puste miejsca w przyszłosci)"
-        ]
-    },{
-        q: "Melancholik to",
-        a: [
-            "niezrównoważony introwertyk",
-            "zrównoważony introwertyk",
-            "niezrównoważony ekstrawertyk"
-        ]
-    },{
-        q: "Introwertyków cechuje",
-        a: [
-            "skłonnośc do introspekcji",
-            "skłonnośc do działań zespołowych",
-            "łątwośc nawiązywania kontaktów"
-        ]
-    },{
-        q: "osobowośc to zorganizowana struktura cech indywidualnych i związanych z nimi sposobów zachowania, która decydfuje o specyficznym przystosowaniu jednostki do środowiska",
-        a: [
-            "Prawda", 
-            "Fałsz"
-        ]
-    },{
-        q: "Ekstrawersja to nastawienie do wewnątrz, koncentracja jednostki w obrębie jej wewnętrznego świata psychicznych przeżyć",
-        a: [
-            "Fałsz",   
-            "Prawda",                                 
-        ]
-    },{
-        q: "wspołczynnik aktywności zawodowej jest to stosunek liczby biernych zawodowo do liczby ludności w wieku produkcyjnym",
-        a: [
-            "Fałsz",   
-            "Prawda"
-        ]
-    },{
-        q: "Pierwotny rynek pracy oznacza gorsze warunki pracy i płacy",
-        a: [
-            "Fałsz",   
-            "Prawda"
-        ]
-    },{
-        q: "Bezrobocie strukturalne związane jest z natrualną płynnością siły roboczej, możliwa dzięki pełnej swobodzie zmiany miejsca pracy",
-        a: [
-            "Fałsz",   
-            "Prawda"
-        ]
-    },{
-        q: "W CV nie umieszcza sie informacji dotyczących",
-        a: [
-            "danych personalnych członków najbliższej rodziny",
-            "specjalnych umiejętności związanych z pracą",
-            "doświadczenia zawodowego"
-        ]
+      q: "UNICODE to:",
+      a: [
+        "Zestaw znaków",
+        "System kodowania znaków",
+        "Język programowania"        
+      ]
+    },
+    {
+      q: "Do utworzenia pustego podmenu należny użyć:",
+      a: [
+        "CreatePopupMenu",
+        "CreateMenu",
+        "CreateShortCutMenu",
+        "CreateMenuPopup"        
+      ]
+    },
+    {
+      q: "Otwarcie okna dialogowego do zapisu pliku realizowane jest za pomocą funkcji:",
+      a: [
+        "GetSaveFileName",
+        "GetOpenFileName",        
+        "ChooseFont"
+      ]
+    },
+    {
+      q: "Funkcja stanowiąca punkt wejściowy programu zaimplementowanego w oparciu WinAPI to:",
+      a: [
+        "WinMain",
+        "MessageBox",        
+        "WndProc"
+      ]
+    },
+    {
+      q: "Zmienne w skryptach PowerShell mają nazwy zaczynajqce się od:",
+      a: [
+        "$",
+        "!",
+        "&",        
+        "%"
+      ]
+    },
+    {
+      q: "Do rejestracji klasy okna służy polecenie:",
+      a: [
+        "RegisterClassEx",
+        "CreateWindowEx",        
+        "WindowCreateEx",
+        "ClassRegisterEx"
+      ]
+    },   
+    {
+      q: "OPENFILENAME to:",
+      a: [
+        "struktura dobsługi okna \"Otwórz/zapisz plik”",
+        "funkcja otwierajqca okn\"Otwórz plik\"",       
+        "funkcja otwiercajqca istniejqcy plik - jeśli plik nie istnieje zostaje utworzony",
+        "funkcja wyswietlajqca komunikat otwarciu pliku"
+      ]
+    },
+    {
+      q: "Formalnie, mianem rozszerzenia ASCII określa się:",
+      a: [
+        "System kodowania, który zachowuje zgodność z ASCII w zakresie pierwszych 128 znaków",
+        "System kodowania, w ramach któregniektóre znaki zostały zastąpione innymi, w porównaniu doryginalnegzestawu znaków ASCII",
+        "System kodowania, zapewniający zgodność z ASCII w zakresie znaków drukowalnych"        
+      ]
+    },
+    {
+      q: "Które z poniższych wyrażeń umożliwia pobranie aktualnej wartości wskaźnika myszy:",
+      a: [
+        "x=LOWORD(lParam), y=HIWORD(lParam)",
+        "x=HIWORD(lParam), y=LOWORD(lParam)",
+        "x=LOWORD(wParam), y=HIWORD(wParam)",
+        "x=HIWORD(lParam), y=HIWORD(lParam)"
+      ]
+    },
+    {
+      q: "Typy z przedrostkiem LP oznaczają:",
+      a: [
+        "wskaźnik",
+        "referencję",
+        "uchwyt",
+        "zmienną typu long double"       
+      ]
+    },
+    {
+      q: "Komunikat WM LBUTTONDOWN oznacza:",
+      a: [
+        "wciśnięcie lewegprzycisku myszy",
+        "wciśnięcie klawisza L",
+        "zwolnienie klawisza L",
+        "zwolnienie lewegprzycisku myszy"
+      ]
+    },
+    {
+      q: "Do utworzenia skrótów klawiszowych w oknie dialogowym i elementach menu należy użyć:",
+      a: [
+        "akceleratorów",
+        "menu",        
+        "kontrolek",
+        "zasobów"
+      ]
+    },
+    {
+      q: "UTF-16 to:",
+      a: [
+        "System kodowania znaków UNICODE wykorzystujący 2 lub 4 bajty",
+        "System kodowania znaków UNICODE wykorzystujący 4 bajty",
+        "System kodowania znaków ASCII wykorzystujący 1 bajt"
+      ]
+    },
+    {
+      q: "Okna z przezroczystościę określamy za pomocq stylu:",
+      a: [          
+        "WS_EX_LAYERED",
+        "WS.POPUP",
+        "WS_CHILD",
+        "WS-CAPTION"
+      ]
+    },
+    {
+      q: "Kontrolki w WinAPI tworzymy za pomocq funkcji:",
+      a: [
+        "CreateWindowEx",
+        "EnableWindow",        
+        "CreateDialog",
+        "WindowCreateEx"
+      ]
+    },
+    {
+      q: "Akcje wykonywane na kontrolkach w WinAPI generuję komunikat:",
+      a: [
+        "WM_COMMAND",
+        "WM.CREATE",
+        "WMJNITDIALOG",
+        "WS-CAPTION"
+      ]
+    },
+    {
+      q: "Wciśnięcie klawisza systemowegpowoduje wywołanie komunikatu:",
+      a: [          
+        "MW.SYSKEYDOWN",
+        "WM.SYSKEY",
+        "MW-SYSKEYUP",
+        "WM.KEYDOWN"
+      ]
+    },
+    {
+      q: "Domyślnie okno utworzone za pomocq funkcji CreateWindowEx jest widoczne dla użytkownika",
+      a: [
+        "Fałsz",
+        "Prawda"        
+      ]
+    },
+    {
+      q: "Lista zasobów dodawanych do programu znajduje się w pliku z rozszerzeniem:",
+      a: [
+        ".rc",
+        ".cpp",
+        ".cur",
+        ".exe"
+      ]
+    },
+    {
+      q: "Klasa Border nie umożliwia dodawanie elementów potomnych:",
+      a: [
+        "Prawda",
+        "Fałsz"
+      ]
+    },
+    {
+      q: "Klasa ToolBar wykorzystuje model zawartości:",
+      a: [          
+        "HeaderedltemsControl",
+        "Contentcontrol",
+        "HeaderedContentControl",
+        "ItemsControl"
+      ]
+    },
+    {
+      q: "Najczęściej używane znaki UNICODE umieszczone sq na płaszczyźnie:",
+      a: [
+        "O",
+        "16",
+        "2",
+        "l"        
+      ]
+    },
+    {
+      q: "Interfejs użytkownika w WPF definiowany jest z wykorzystaniem języka:",
+      a: [        
+        "XAML",
+        "XML",
+        "WSDL",
+        "XHTML"
+      ]
+    },
+    {
+      q: "Które z poniższych typów wiązań sq dostępne w WPF:",
+      a: [
+        "OneWay, TwoWay",
+        "Żadne z wymienionych",
+        "OneToSource, BindingMode",      
+        "BindingMode, TimeOne"
+      ]
+    },
+    {
+      q: "Skrypty PowerShell implementowane sq w plikach z rozszerzeniem:",
+      a: [
+        "*.ps1",
+        "*.ps",
+        "*.bat"
+      ]
+    },
+    {
+      q: "WPF dostarcza mechanizm umożliwiajgcy modyfikację zasobów w trakcie wykonania aplikacji",
+      a: [
+        "Prawda",
+        "Fałsz"
+      ]
+    },
+    {
+      q: "Biblioteki statyczne dolqczane sq do programu w trakcie wykonania.",
+      a: [
+        "Fałsz",
+        "Prawda"        
+      ]
+    },
+    {
+      q: "Transformacja RenderTransform wykonywana jest przed ułożeniem elementu",
+      a: [
+        "Fałsz",
+        "Prawda"        
+      ]
+    },
+    {
+      q: "Który z głównych składników WPF implementuje podstawowe usługi:",
+      a: [          
+        "Presentationcore",
+        "PresentationFramework",
+        "Media Integration Layer"
+      ]
+    },
+    {
+      q: "Kontrolka Canvas w WPF pozwala ustawić obiekt za pomocq czterech współrzędnych jednocześnie.",
+      a: [
+        "Fałsz",
+        "Prawda"        
+      ]
+    },
+    {
+      q: "Funkcja wejścia (entry-point function) w bibliotece dynamicznej nie jest wywoływana automatycznie:",
+      a: [
+        "Prawda",
+        "Fałsz"
+      ]
+    },
+    {
+      q: "Jakie dwa rodzaje zasobów sq dostępne w WPF:",
+      a: [
+        "StaticResource i DynamicResource",
+        "Żadne z wymienionych",
+        "StaticResource i CompileResource",
+        "WPF nie obsługuje zasobów"       
+      ]
+    },
+    {
+      q: "Okna podrzędne MDI mogg obsługiwać skróty klawiszowe",
+      a: [
+        "Fałsz",
+        "Prawda"        
+      ]
+    },
+    {
+      q: "Która klasa jest klasę podstawowę wszystkich elementów wizualnych WPF:",
+      a: [
+        "Window",
+        "Shape",
+        "Visual",
+        "Control"
+      ]
+    },
+    {
+      q: "Zdarzenia obsługiwane przez WPF to:",
+      a: [          
+        "Tunneling events",
+        "Bubbling events",
+        "Wszystkie odpowiedzi sq poprawne",
+        "Direct events"
+      ]
     }
-];
+  ]
