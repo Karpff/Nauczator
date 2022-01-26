@@ -100,4 +100,6 @@ window.addEventListener("load",_=>
         $("#progressQuestions")[0].innerHTML = `${Math.floor(100-(questions.length/questionNum)*100)}%`;
         $("#progressQuestions").css("width",`${100-(questions.length/questionNum)*100}%`);
     });
+
+    document.getElementById("showAllBtn").setAttribute('href',"allQuestions.html?set="+params.set);
 });
