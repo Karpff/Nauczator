@@ -1,3 +1,12 @@
+const urlSearchParams = new URLSearchParams(window.location.search);
+const params = Object.fromEntries(urlSearchParams.entries());   
+if(!params.set)
+{
+    var set = prompt("Wprowadź skrót przedmiotu (bke,padw,rp)");
+    window.location = window.location+"?set="+set;
+}
+var questions = questionSets[params.set];
+
 var question;
 var questionNum = questions.length;
 var rite;
