@@ -1,5 +1,5 @@
 //beka egzamin
-var bkeEGZ =  [
+questionSets.bkeEGZ =  [
         {
           "q": "Aby potwierdzić wiarygodność podpisu elektronicznegnależy posiadać",
           "a": [
