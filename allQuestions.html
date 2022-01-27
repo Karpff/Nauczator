@@ -15,6 +15,7 @@
         <script src="questions/IO.js"></script>
         <script src="questions/PadW.js"></script>
         <script src="questions/RP.js"></script>
+        <script src="questions/bkeEgzamin.js"></script>
     </head>
     <body style="color: white">
         <script>
@@ -22,7 +23,7 @@
             const params = Object.fromEntries(urlSearchParams.entries());   
             if(!params.set)
             {
-                var set = prompt("Wprowadź skrót przedmiotu (bke,padw,rp)");
+                var set = prompt("Wprowadź skrót przedmiotu (bke,padw,rp,bkeEGZ)");
                 window.location = window.location+"?set="+set;
             }
             var questions = questionSets[params.set];
