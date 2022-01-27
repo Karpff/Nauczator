@@ -2,7 +2,7 @@ const urlSearchParams = new URLSearchParams(window.location.search);
 const params = Object.fromEntries(urlSearchParams.entries());   
 if(!params.set)
 {
-    var set = prompt("Wprowadź skrót przedmiotu (bke,padw,rp)");
+    var set = prompt("Wprowadź skrót przedmiotu (bke,padw,rp,bkeEGZ)");
     window.location = window.location+"?set="+set;
 }
 var questions = questionSets[params.set];
