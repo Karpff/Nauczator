@@ -1,12 +1,12 @@
 //beka egzamin
 questionSets.bkeEGZ =  [
         {
-          "q": "Aby potwierdzić wiarygodność podpisu elektronicznegnależy posiadać",
+          "q": "Aby potwierdzić wiarygodność podpisu elektronicznego należy posiadać",
           "a": [
-            "klucz prywatny i wiarygodny klucz publiczny strony podpisujqcej",
+            "wiarygodny klucz publiczny strony podpisującej",
+            "klucz prywatny i wiarygodny klucz publiczny strony podpisującej",
             "własny klucz prywatny",            
-            "wiarygodny klucz publiczny strony podpisujqcej",
-            "klucz prywatny strony podpisujqcej"
+            "klucz prywatny strony podpisującej"
           ]
         },
         {
@@ -21,28 +21,28 @@ questionSets.bkeEGZ =  [
         {
           "q": "Atak typu „man in the middle\"",
           "a": [
-            "polega na przechwyceniu klucza publicznegprzeznaczonegdla klienta i przekazanie mu klucza fałszywego",
-            "polega na przechwyceniu przez intruza klucza symetrycznegi „podsłuchiwania\" przekazywanych inforamcji",
-            "polega na przechwyceniu klucza prywatnegserwera i przekazanie klientowi klucza fałszywego",            
-            "włamaniu w celu przejęcia klucza prywatnegserwera"
+            "polega na przechwyceniu klucza publicznego przeznaczonego dla klienta i przekazanie mu klucza fałszywego",
+            "polega na przechwyceniu przez intruza klucza symetrycznego i „podsłuchiwania\" przekazywanych inforamcji",
+            "polega na przechwyceniu klucza prywatnego serwera i przekazanie klientowi klucza fałszywego",            
+            "włamaniu w celu przejęcia klucza prywatnego serwera"
           ]
         },
         {
           "q": "Steganografia to",
           "a": [
-            "ukrywanie właściwegprzekazu w innym przekazie",
+            "ukrywanie właściwego przekazu w innym przekazie",
             "metoda obrony przed atakiem typu „man in middle\"",
-            "metoda kodowania wykorzystujqca klucze asymetryczne",
-            "metoda notowania słów i zdań za pomocq symboli"
+            "metoda kodowania wykorzystująca klucze asymetryczne",
+            "metoda notowania słów i zdań za pomocą symboli"
           ]
         },
         {
           "q": "Metoda CBC (Cipher Block Chaining)",
           "a": [
-            "wykorzystuje wynik szyfrowania poprzedniegbloku w szyfrowaniu następnego",
-            "tmetoda notowania słów i zdań za pomocq symboli",
-            "zamienia kolejność bloków podlegajqcych szyfrowaniu",           
-            "zamienia kolejność bitów w bloku podlegajqcym szfrowaniu"
+            "wykorzystuje wynik szyfrowania poprzedniego bloku w szyfrowaniu następnego",
+            "to metoda notowania słów i zdań za pomocą symboli",
+            "zamienia kolejność bloków podlegających szyfrowaniu",           
+            "zamienia kolejność bitów w bloku podlegającym szfrowaniu"
           ]
         },
         {
@@ -55,25 +55,25 @@ questionSets.bkeEGZ =  [
           ]
         },
         {
-          "q": "Podpis elektroniczny dokumentu to",
+          "q": "Podpis elektroniczny dokumentu to (?)",
           "a": [
-            "skrót dokumentu wyznaczony jednokierunkowq funkcjq mieszajqcq",
+            "skrót dokumentu wyznaczony jednokierunkową funkcją mieszającą",
             "skrót (odcisk) dokumentu poddany operacji szyfrowywania kluczem prywatnym",
             "dokument poddany operacji szyfrowania kluczem publicznym",
             "dokument poddany operacji rozszyfrowywania kluczem prywatnym"
           ]
         },
         {
-          "q": "Klucz publiczny wykorzystuje się do",
+          "q": "Klucz publiczny wykorzystuje się do (?)",
           "a": [
+            "szyfrowania informacji, którą można odszyfrować odpowiednim kluczem prywatnym",
             "deszyfrowania informacji zaszyfrowanej odpowiednim kluczem prywatnym",
             "deszyfrowania informacji zaszyfrowanej tym samym kluczem publicznym",           
-            "szyfrowania i deszyfrowania informacji bez wnoszenia opłat licencyjnych",
-            "szyfrowania informacji, którą można odszyfrować odpowiednim kluczem prywatnym"
+            "szyfrowania i deszyfrowania informacji bez wnoszenia opłat licencyjnych"
           ]
         },
         {
-          "q": "Jednokierunkowe funkcje hashujqce (mieszajqce) pozwalajq na",
+          "q": "Jednokierunkowe funkcje hashujące (mieszające) pozwalają na",
           "a": [
             "potwierdzenie istnienia dokumentu",
             "sprawdzanie procesu szyfrowania pod względem bezpieczeństwa",           
@@ -82,19 +82,19 @@ questionSets.bkeEGZ =  [
           ]
         },
         {
-          "q": "Szyfrowanie algorytmem 3DES jest realizowany poprzez",
+          "q": "Szyfrowanie algorytmem 3DES jest realizowane poprzez",
           "a": [
-            "szyfrowani, deszyfrowanie i szyfrowanie algorytmem DES używając kolejnpierwszej, drugiej i znów pierwszej połowy klucza",
-            "trzykrotne szyfrowanie algorytmem DES przy użyciu tegsamegklucza",
-            "trzykrotne szyfrowanie algorytmem DES używając każdorazowinnej części klucza",            
-            "szyfrowani, deszyfrowanie i szyfrowanie algorytmem DES przy użyciu tegsamegklucza"
+            "szyfrowanie, deszyfrowanie i szyfrowanie algorytmem DES używając kolejno pierwszej, drugiej i znów pierwszej połowy klucza",
+            "trzykrotne szyfrowanie algorytmem DES przy użyciu tego samego klucza",
+            "trzykrotne szyfrowanie algorytmem DES używając każdorazowo innej części klucza",            
+            "szyfrowani, deszyfrowanie i szyfrowanie algorytmem DES przy użyciu tego samego klucza"
           ]
         },
         {
           "q": "RSA to",
           "a": [
             "algorytm szyfrowania asymetrycznego",
-            "organizacja dokonujqca weryfikacji nowych metod szyfrowania",
+            "organizacja dokonująca weryfikacji nowych metod szyfrowania",
             "jeden z etapów algorytmu 3DES",
             "algorytm szyfrowania symetrycznego"           
           ]
@@ -103,22 +103,22 @@ questionSets.bkeEGZ =  [
           "q": "W trakcie kwantowej dystrybucji kluczy za pomocą polaryzatorów klucz nie jest znany żadnej ze stron gdyż",
           "a": [
             "strony losują fragmenty klucza",
-            "uwzględniane są tylkbity, które powrócą dnadawcy",
-            "uwzględniane sa tylkbity, które nie powrócą dnadawcy",            
-            "bity poprawnie odczytane przez odbiorcę są weryfikowane pprocesie dystrybucji"
+            "uwzględniane są tylko bity, które powrócą do nadawcy",
+            "uwzględniane sa tylko bity, które nie powrócą do nadawcy",            
+            "bity poprawnie odczytane przez odbiorcę są weryfikowane po procesie dystrybucji"
           ]
         },       
         {
-          "q": "Potwierdzenie tożsamości w procesie wydawania certyfikatu kwalifikowanegodbywa się poprzez",
+          "q": "Potwierdzenie tożsamości w procesie wydawania certyfikatu kwalifikowanego odbywa się poprzez",
           "a": [
-            "przesłanie podpisanegoświadczenia na papierze",
-            "osobiste stawiennictww punkcie potwierdzania tożsamości",
+            "przesłanie podpisanego oświadczenia na papierze",
+            "osobiste stawiennictwo w punkcie potwierdzania tożsamości",
             "przesłanie maila z oświadczeniem",
-            "przesłanie skanu dowodu osobisteglub paszportu"            
+            "przesłanie skanu dowodu osobistego lub paszportu"            
           ]
         },
         {
-          "q": "Stronę zaufanq w wymianie danych w środowisku EDl/EDIFACT (Electronic Data Interchange) jest",
+          "q": "Stronę zaufaną w wymianie danych w środowisku EDl/EDIFACT (Electronic Data Interchange) jest",
           "a": [
             "operator EDI",
             "nie ma zaufanej strony",

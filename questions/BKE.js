@@ -258,7 +258,7 @@ questionSets.bke = [
       ]
     },
     {
-      q: `Wymiana danych pomiędzy płatnikiem (np. używajęcym programu Płatnik) z Zakładem Ubezpieczeń Społecznych w ramach Elektronicznej Wymiany Danych (EWD) jest realizowany za pomocg formatu`,
+      q: `Wymiana danych pomiędzy płatnikiem (np. używajęcym programu Płatnik) z Zakładem Ubezpieczeń Społecznych w ramach Elektronicznej Wymiany Danych (EWD) jest realizowany za pomocą formatu`,
       a: [
         `XML`,
         `SWIFT`,
