@@ -58,7 +58,6 @@ questionSets.bke = [
       q: `Szyfrowanie za pomocą algorytmu 3DES (potrójny DES) polega na`,
       a: [
         `kolejno: szyfrowaniu kluczem KI, deszyfrowaniem kluczem K2, szyfrowaniem kluczem Ki`,
-        `kolejno: szyfrowaniu kluczem KI. szyfrowaniem kluczem K2,`,
         `deszyfrowaniem kluczem KI`,
         `kolejno: szyfrowaniu kluczem KI, szyfrowaniem kluczem K2.`,
         `szyfrowaniem kluczem K3`,       
@@ -259,9 +258,8 @@ questionSets.bke = [
       ]
     },
     {
-      q: `Wymiana danych pomiędzy płatnikiem (np. używajęcym programu Płatnik) z Zakładem Ubezpieczeń Społecznych w ramach Elektronicznej Wymiany`,
+      q: `Wymiana danych pomiędzy płatnikiem (np. używajęcym programu Płatnik) z Zakładem Ubezpieczeń Społecznych w ramach Elektronicznej Wymiany Danych (EWD) jest realizowany za pomocg formatu`,
       a: [
-        `Danych (EWD) jest realizowany za pomocg formatu`,
         `XML`,
         `SWIFT`,
         `GS1`,
