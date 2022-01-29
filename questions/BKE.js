@@ -1,5 +1,5 @@
 //egzamin z beki
-ąuestionSets.bke = [
+questionSets.bke = [
     {
       ą: `Co oznacza skrót B2B?`,
       a: [
