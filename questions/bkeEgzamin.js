@@ -57,8 +57,8 @@ questionSets.bkeEGZ =  [
         {
           "q": "Podpis elektroniczny dokumentu to (?)",
           "a": [
-            "skrót dokumentu wyznaczony jednokierunkową funkcją mieszającą",
             "skrót (odcisk) dokumentu poddany operacji szyfrowywania kluczem prywatnym",
+            "skrót dokumentu wyznaczony jednokierunkową funkcją mieszającą",
             "dokument poddany operacji szyfrowania kluczem publicznym",
             "dokument poddany operacji rozszyfrowywania kluczem prywatnym"
           ]
