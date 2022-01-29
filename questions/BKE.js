@@ -1,7 +1,7 @@
 //egzamin z beki
 questionSets.bke = [
     {
-      ą: `Co oznacza skrót B2B?`,
+      q: `Co oznacza skrót B2B?`,
       a: [
         `Komunikację (relacje) pomiędzy partnerami biznesowymi`,
         `Relację pomiędzy pracownikami niższego szczebla`,
@@ -10,7 +10,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Zapewnienie ciągłości działania przedsiębiorstwa uzyskuje się przez`,
+      q: `Zapewnienie ciągłości działania przedsiębiorstwa uzyskuje się przez`,
       a: [
         `kopie danych i systemy zapasowe`,
         `szyfrowanie komunikacji z pracownikami mobilnymi`,
@@ -19,7 +19,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Co oznacza skrót A2A?`,
+      q: `Co oznacza skrót A2A?`,
       a: [
         `Komunikację pomiędzy aplikacjami`,
         `Program komputerowy z dużą liczbą błędów`,
@@ -28,7 +28,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Metoda klucza jedno razowego (one-time pad)`,
+      q: `Metoda klucza jedno razowego (one-time pad)`,
       a: [
         `jest szyfrem niemożliwym do złamania`,
         `wymaga zastosowania kilkubajtowego klucza, ale różnego dla poszczególnych sesji komunikacji`,
@@ -37,7 +37,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Klucz publiczny w szyfrowaniu asymetrycznym`,
+      q: `Klucz publiczny w szyfrowaniu asymetrycznym`,
       a: [
         `służy do szyfrowania danych, które będą mogły być rozszyfrowane przy użyciu odpowiedniego klucza prywatnego`,
         `służy do szyfrowania danych, które będą mogły być rozszyfrowane przy użyciu tego samego klucza`,
@@ -46,7 +46,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Steganografia to`,
+      q: `Steganografia to`,
       a: [
         `ukrywanie przekazu w innym przekazie`,
         `symboliczna metoda zapisu treści, zwiększająca jego szybkość`,
@@ -55,7 +55,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Szyfrowanie za pomocą algorytmu 3DES (potrójny DES) polega na`,
+      q: `Szyfrowanie za pomocą algorytmu 3DES (potrójny DES) polega na`,
       a: [
         `kolejno: szyfrowaniu kluczem K1, deszyfrowaniem kluczem K2, szyfrowaniem kluczem K1`,
         `deszyfrowaniem kluczem K1`,
@@ -65,7 +65,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Algorytm DES (także 3DES) to szyfr`,
+      q: `Algorytm DES (także 3DES) to szyfr`,
       a: [
         `blokowy symetryczny`,
         `strumieniowy asymetryczny`,
@@ -74,7 +74,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Algorytm RC4 to szyfr`,
+      q: `Algorytm RC4 to szyfr`,
       a: [
         `strumieniowy symetryczny`,
         `blokowy asymetryczny`,
@@ -83,7 +83,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Klucz prywatny jest przeznaczony do`,
+      q: `Klucz prywatny jest przeznaczony do`,
       a: [
         `odszyfrowywania informacji zaszyfrowanej odpowiednim kluczem publicznym w celu ochrony jej zawartości`,
         `szyfrowania informacji przeznaczonej dla innego posiadacza tego samego klucza prywatnego w celu ochrony jej zawartości`,
@@ -92,7 +92,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Algorytm RSA to szyfr`,
+      q: `Algorytm RSA to szyfr`,
       a: [
         `blokowy asymetryczny`,
         `strumieniowy symetryczny`,
@@ -102,7 +102,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Klucz publiczny w algorytmie RSA zawiera`,
+      q: `Klucz publiczny w algorytmie RSA zawiera`,
       a: [
         `iloczyn dwóch dużych liczb pierwszych p oraz liczbę względnie pierwszą z wyrażeniem (p-l)(p-l)`,
         `losowy ciąg bitów tworzących słowo o długości zadanej przez administratora`,
@@ -111,7 +111,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Klucz publiczny przeznaczony jest do`,
+      q: `Klucz publiczny przeznaczony jest do`,
       a: [
         `szyfrowania informacji przeznaczonej dla posiadacza odpowiedniego klucza prywatnego w celu jej ochrony`,
         `szyfrowanie informacji przeznaczonej dla posiadacza tego samego klucz publicznego w celu jej ochrony`,       
@@ -120,7 +120,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Skutki prawne daty pewnej wywołuje`,
+      q: `Skutki prawne daty pewnej wywołuje`,
       a: [
         `kwalifikowany znacznik czasu`,
         `znacznik czasu wystawiony przez urząd certyfikacji zarejestrowany w narodowym centrum certyfikacji`,
@@ -129,7 +129,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Wystawienie znacznika czasu dokumentu jest uwarunkowane`,
+      q: `Wystawienie znacznika czasu dokumentu jest uwarunkowane`,
       a: [
         `łącznością z urzędem certyfikacji w trakcie wystawiania znacznika`,
         `wniesieniem opłaty na rzecz wystawcy`,
@@ -138,7 +138,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `W trakcie generowania znacznika czasu wykorzystywany jest klucz`,
+      q: `W trakcie generowania znacznika czasu wykorzystywany jest klucz`,
       a: [
         `prywatny wystawcy (urzędu certyfikacji)`,
         `publiczny wystawcy (urzędu certyfikacji)`,
@@ -147,7 +147,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Podpis elektroniczny (cyfrowy) pliku to`,
+      q: `Podpis elektroniczny (cyfrowy) pliku to`,
       a: [
         `odcisk pliku wykonany jednokierunkową funkcją mieszającą zaszyfrowany kluczem prywatnym`,
         `plik zaszyfrowany kluczem prywatnym`,        
@@ -157,7 +157,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Certyfikat kryptograficzny to`,
+      q: `Certyfikat kryptograficzny to`,
       a: [
         `klucz publiczny użytkownika podpisany kluczem prywatnym wystawcy certyfikatu`,
         `klucz publiczny użytkownika podpisany kluczem publicznym wystawcy certyfikatu`,       
@@ -166,7 +166,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Dokument CRL udostępniany przez urzędy certyfikacji to`,
+      q: `Dokument CRL udostępniany przez urzędy certyfikacji to`,
       a: [
         `lista certyfikatów odwołanych i unieważnionych`,
         `lista wystawionych certyfikatów`,        
@@ -175,7 +175,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Narodowe Centrum Certyfikacji`,
+      q: `Narodowe Centrum Certyfikacji`,
       a: [
         `publikuje rejestr dostawców usług zaufania`,
         `publikuje rejestr certyfikatów wystawionych obywatelom Rzeczpospolitej Polskiej`,
@@ -184,7 +184,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Realizując połączenie VPN zaleca się zastosowanie`,
+      q: `Realizując połączenie VPN zaleca się zastosowanie`,
       a: [
         `certyfikatu serwera (routera) i indywidualnego certyfikatu klienta`,
         `certyfikatu serwera (routera)`,       
@@ -193,7 +193,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Odebranie maila jako jedyna forma potwierdzenie prawa do certyfikatu jest możliwa w przypadku`,
+      q: `Odebranie maila jako jedyna forma potwierdzenie prawa do certyfikatu jest możliwa w przypadku`,
       a: [
         `e-mail ID Individual`,
         `VPN`,
@@ -202,7 +202,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Autonomiczny urząd certyfikacji`,
+      q: `Autonomiczny urząd certyfikacji`,
       a: [
         `nie wymaga usługi katalogowej ActiveDirectory`,
         `wystawia certyfikat dla siebie, nie wystawia certyfikatu dla urzędów podrzędnych`,
@@ -211,7 +211,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Główny urząd certyfikacji w organizacji (przedsiębiorstwie, holdingu, uczelni...)`,
+      q: `Główny urząd certyfikacji w organizacji (przedsiębiorstwie, holdingu, uczelni...)`,
       a: [
         `sam wystawia dla siebie`,
         `pozyskuje certyfikat z zewnętrznego urzędu certyfikacji`,        
@@ -220,7 +220,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Podrzędny urząd certyfikacji`,
+      q: `Podrzędny urząd certyfikacji`,
       a: [
         `pozyskuje dla siebie certyfikat z urzędu bezpośrednio nadrzędnego w strukturze PKl`,
         `pozyskuje dla siebie certyfikat z zewnętrznego urzędu certyfikacji (spoza własnej struktury PKl) zarejestrowanego w nccert`,
@@ -230,7 +230,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Separatorami w formacie EDIFACT (poziom A) są`,
+      q: `Separatorami w formacie EDIFACT (poziom A) są`,
       a: [
         `znaki: apostrof, plus i dwukropek`,
         `znaki: przecinek, kropka i średnik`,
@@ -239,7 +239,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Wymiana danych w standardzie EDIFACT rozpoczyna się od`,
+      q: `Wymiana danych w standardzie EDIFACT rozpoczyna się od`,
       a: [
         `znaków UNA lub UNB`,
         `definicji znaków rozdzielających`,
@@ -249,7 +249,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Wdrożenie komunikacji w standardzie EDIFACT wymaga m.in.`,
+      q: `Wdrożenie komunikacji w standardzie EDIFACT wymaga m.in.`,
       a: [
         `wdrożenia interfejsów translacji danych z i do formatu EDIFACT`,
         `wskazania partnera wprowadzającego do grupy użytkowników standardu`,
@@ -258,7 +258,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Wymiana danych pomiędzy płatnikiem (np. używajęcym programu Płatnik) z Zakładem Ubezpieczeń Społecznych w ramach Elektronicznej Wymiany Danych (EWD) jest realizowany za pomocg formatu`,
+      q: `Wymiana danych pomiędzy płatnikiem (np. używajęcym programu Płatnik) z Zakładem Ubezpieczeń Społecznych w ramach Elektronicznej Wymiany Danych (EWD) jest realizowany za pomocg formatu`,
       a: [
         `XML`,
         `SWIFT`,
@@ -268,7 +268,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Jednolity plik kontrolny (JPK) jest przesyłany w formacie`,
+      q: `Jednolity plik kontrolny (JPK) jest przesyłany w formacie`,
       a: [
         `XML`,
         `CSV`,
@@ -278,7 +278,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `System SWIFT bazuje na formacie`,
+      q: `System SWIFT bazuje na formacie`,
       a: [
         `EDIFACT`,
         `GSl`,
@@ -287,7 +287,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Polska przystąpiła do systemu EAN (później GS1) w roku`,
+      q: `Polska przystąpiła do systemu EAN (później GS1) w roku`,
       a: [
         `1990`,
         `trwają negocjacje akcesyjne`,
@@ -297,7 +297,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Nagłówek komunikatu w standardzie EDIFACT rozpoczyna się od znaków`,
+      q: `Nagłówek komunikatu w standardzie EDIFACT rozpoczyna się od znaków`,
       a: [
         `UNH`,
         `UNA`,
@@ -306,7 +306,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Grupa EDI przy ECR Polska przyjmuje m.in.`,
+      q: `Grupa EDI przy ECR Polska przyjmuje m.in.`,
       a: [
         `strukturę komunikatów w wymianie EDIFACT`,
         `korespondencje EDI w imieniu podmiotów upoważniających`,       
@@ -315,7 +315,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Weryfikacja autentyczności danych zapisanych w łańcuchu BlockChain`,
+      q: `Weryfikacja autentyczności danych zapisanych w łańcuchu BlockChain`,
       a: [
         `odbywa się poprzez porównanie z każdą dostępną kopią łańcucha przechowywaną przez uczestników sieci`,
         `ponowne wyliczenie odcisków bloków łańcucha`,
@@ -324,7 +324,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Rozwiązaniem zagadki kryptograficznej, w trakcie tworzenia bloku łańcucha BlockChain, jest`,
+      q: `Rozwiązaniem zagadki kryptograficznej, w trakcie tworzenia bloku łańcucha BlockChain, jest`,
       a: [
         `pole 'nonce' umieszczane w tworzonym bloku`,
         `pole nonce umieszczane w bloku zawierającym odcisk (hash) do tworzonego bloku`,
@@ -333,7 +333,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `W trakcie przekazywania klucza za pomocą spolaryzowanych kwantów światła`,
+      q: `W trakcie przekazywania klucza za pomocą spolaryzowanych kwantów światła`,
       a: [
         `klucz składa się z bitów, które udało się poprawnie przesłać`,
         `klucz jest ustalany przez nadawcę (Alice)`,
@@ -342,7 +342,7 @@ questionSets.bke = [
       ]
     },
     {
-      ą: `Fotony w stanach splątanych wysłane do dwóch uczestników komunikacji`,
+      q: `Fotony w stanach splątanych wysłane do dwóch uczestników komunikacji`,
       a: [
         `pozwalają na ustalenie kolejnych bitów klucza symetrycznego i są znane tylko odbiorcom tych fotonów`,
         `pozwalają na ustalenie kolejnych bitów klucza symetrycznego i są znane tylko odbiorcom tych fotonów oraz nadawcy`,
