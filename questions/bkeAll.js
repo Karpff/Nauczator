@@ -492,5 +492,55 @@ questionSets.bkeAll = [
             "Samodzielnie certyfikować klucz prywatny użytkownika A",
             "Samodzielnie certyfikować klucz publiczny użytkownika A",
         ]
+      },
+      {
+        q: `Separator "?" stosowany w standardzie EDI/EDIFACT to`,
+        a: [
+            "znak zwalniający",
+            "element danych",
+            "składowe",
+            "zakończenie segmentu",
+            "taki nie występuje"
+        ]
+      },
+      {
+        q: `Separator "+" stosowany w standardzie EDI/EDIFACT to`,
+        a: [
+            "element danych",
+            "znak zwalniający",
+            "składowe",
+            "zakończenie segmentu",
+            "taki nie występuje"
+        ]
+      },
+      {
+        q: `Separator ":" stosowany w standardzie EDI/EDIFACT to`,
+        a: [
+            "składowe",
+            "znak zwalniający",
+            "element danych",
+            "zakończenie segmentu",
+            "taki nie występuje"
+        ]
+      },
+      {
+        q: 'Separator "`" stosowany w standardzie EDI/EDIFACT to',
+        a: [
+            "zakończenie segmentu",
+            "znak zwalniający",
+            "element danych",
+            "składowe",
+            "taki nie występuje"
+        ]
+      },
+      {
+        q: 'Separator ";" stosowany w standardzie EDI/EDIFACT to',
+        a: [
+            "taki nie występuje",
+            "zakończenie segmentu",
+            "znak zwalniający",
+            "element danych",
+            "składowe"
+        ]
       }
   ]
