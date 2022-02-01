@@ -27,7 +27,7 @@ questionSets.bkeAll = [
       ]
     },
     {
-      q: `Metoda klucza jedno razowego (one-time pad)`,
+      q: `Metoda klucza jednorazowego (one-time pad)`,
       a: [
         `jest szyfrem niemożliwym do złamania`,
         `wymaga zastosowania kilkubajtowego klucza, ale różnego dla poszczególnych sesji komunikacji`,
@@ -105,7 +105,7 @@ questionSets.bkeAll = [
       a: [
         `iloczyn dwóch dużych liczb pierwszych p oraz liczbę względnie pierwszą z wyrażeniem (p-l)(p-l)`,
         `losowy ciąg bitów tworzących słowo o długości zadanej przez administratora`,
-        `dwie duże liczby pierwsze p poraź liczbę względnie pierwszą z wyrażeniem (p-l)(p-l)`,
+        `dwie duże liczby pierwsze p oraz liczbę względnie pierwszą z wyrażeniem (p-l)(p-l)`,
         `dużą liczbę pierwszą p oraz liczbę względnie pierwszą z wyrażeniem (p-l)(p-l)`        
       ]
     },
