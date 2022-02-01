@@ -1,5 +1,5 @@
 //beka egzamin
-questionSets.bkeEGZ =  [
+questionSets.bkeEgz = [
         {
           "q": "Aby potwierdzić wiarygodność podpisu elektronicznego należy posiadać",
           "a": [

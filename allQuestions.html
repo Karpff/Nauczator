@@ -11,7 +11,7 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         <script>var questionSets = [];</script>
-        <script src="questions/BKE.js"></script>
+        <script src="questions/bkeQuiz.js"></script>
         <script src="questions/IO.js"></script>
         <script src="questions/PadW.js"></script>
         <script src="questions/RP.js"></script>
@@ -23,7 +23,7 @@
             const params = Object.fromEntries(urlSearchParams.entries());   
             if(!params.set)
             {
-                var set = prompt("Wprowadź skrót przedmiotu (bke,padw,rp,bkeEGZ)");
+                var set = prompt("Wprowadź skrót przedmiotu (padw,rp,bkeQuiz,bkeEgz,bkeAll)");
                 window.location = window.location+"?set="+set;
             }
             var questions = questionSets[params.set];
